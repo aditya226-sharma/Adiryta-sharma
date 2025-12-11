@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Aditya Sharma</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/pages.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="matrix-bg"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">ADITYA<span class="highlight">SHARMA</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="education.html" class="nav-link">Education</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="container">
+            <h1 class="page-title">Cybersecurity Projects</h1>
+            <p class="page-subtitle">Hands-on projects demonstrating practical cybersecurity skills</p>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="project-badge">Featured</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Network Vulnerability Scanner</h3>
+                        <p>Developed a comprehensive network vulnerability scanner using Python and Nmap. The tool automatically discovers network hosts, identifies open ports, and detects potential security vulnerabilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Nmap</span>
+                            <span class="tech-tag">Socket Programming</span>
+                            <span class="tech-tag">JSON</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Automated network discovery</li>
+                                <li>Port scanning and service detection</li>
+                                <li>Vulnerability database integration</li>
+                                <li>Detailed reporting system</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://aditya226-sharma.github.io/network-scanner-/" class="btn btn-secondary" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Password Security Analyzer</h3>
+                        <p>Built a password strength analyzer that evaluates password security using multiple algorithms and provides recommendations for improvement.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Regex</span>
+                            <span class="tech-tag">Entropy Calculation</span>
+                        </div>
+                        <div class="project-links">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Application Penetration Testing</h3>
+                        <p>Conducted comprehensive penetration testing on a deliberately vulnerable web application, identifying and documenting security flaws.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">OWASP ZAP</span>
+                            <span class="tech-tag">Burp Suite</span>
+                            <span class="tech-tag">SQL Injection</span>
+                        </div>
+                        <div class="project-links">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Projects -->
+    <section class="all-projects">
+        <div class="container">
+            <h2 class="section-title">All Projects</h2>
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="network">Network Security</button>
+                <button class="filter-btn" data-filter="web">Web Security</button>
+                <button class="filter-btn" data-filter="forensics">Digital Forensics</button>
+                <button class="filter-btn" data-filter="tools">Security Tools</button>
+            </div>
+            
+            <div class="projects-list">
+                <div class="project-item" data-category="network">
+                    <div class="project-info">
+                        <h4>Network Traffic Analyzer</h4>
+                        <p>Real-time network packet analysis tool using Wireshark and Python</p>
+                        <div class="project-meta">
+                            <span class="category">Network Security</span>
+                            <span class="date">Sep 2025</span>
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="project-item" data-category="web">
+                    <div class="project-info">
+                        <h4>SQL Injection Detection Tool</h4>
+                        <p>Automated tool for detecting SQL injection vulnerabilities in web applications</p>
+                        <div class="project-meta">
+                            <span class="category">Web Security</span>
+                            <span class="date">Nov 2025</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                    </div>
+                </div>
+
+                <div class="project-item" data-category="forensics">
+                    <div class="project-info">
+                        <h4>Digital Evidence Collector</h4>
+                        <p>Python script for collecting and preserving digital evidence from compromised systems</p>
+                        <div class="project-meta">
+                            <span class="category">Digital Forensics</span>
+                            <span class="date">Oct 2025</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                    </div>
+                </div>
+
+                <div class="project-item" data-category="tools">
+                    <div class="project-info">
+                        <h4>Security Audit Checklist Generator</h4>
+                        <p>Automated tool for generating customized security audit checklists</p>
+                        <div class="project-meta">
+                            <span class="category">Security Tools</span>
+                            <span class="date">Sep 2025</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                    </div>
+                </div>
+
+                <div class="project-item" data-category="network">
+                    <div class="project-info">
+                        <h4>Firewall Configuration Analyzer</h4>
+                        <p>Tool for analyzing and optimizing firewall rules and configurations</p>
+                        <div class="project-meta">
+                            <span class="category">Network Security</span>
+                            <span class="date">Sep 2025</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html>
